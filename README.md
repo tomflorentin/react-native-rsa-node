@@ -1,5 +1,8 @@
-# react-native-rsa
+# react-native-rsa-node
 React native rsa crypto lib
+
+
+THIS IS A PORT OF https://www.npmjs.com/package/react-native-rsa-native FOR NODEJS
 
 ## The use case
 Initially this was created for encrypted messaging
@@ -45,5 +48,3 @@ This lib uses Tom Wu's jsbn http://www-cs-students.stanford.edu/~tjw/jsbn/
 
 ## TODO: Still missing export to PEM format
 
-## Known issues:
-* Node js may complain about 'window' is not defined. I just commented out the 'window' related codes in rng.js and it worked. (It look like just adding some extra randomness. Should still work without that part). I don't recommend using this lib in nodejs. I use ursa or node-rsa lib for nodejs.
