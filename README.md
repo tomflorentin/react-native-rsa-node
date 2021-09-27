@@ -44,6 +44,8 @@ var decrypted = rsa.decrypt(encrypted); // decrypted == originText
 Tested works with ursa in nodejs (with ursa padding set to PKCS1).
 
 ## Credits
+
+THIS IS A PORT OF https://www.npmjs.com/package/react-native-rsa-native FOR NODEJS
 This lib uses Tom Wu's jsbn http://www-cs-students.stanford.edu/~tjw/jsbn/
 
 ## TODO: Still missing export to PEM format
