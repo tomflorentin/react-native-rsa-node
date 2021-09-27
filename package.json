@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/z-hao-wang/react-native-rsa.git"
+    "url": "git+https://github.com/tomflorentin/react-native-rsa-node.git"
   },
   "keywords": [
     "rsa",
