@@ -1,7 +1,7 @@
 {
-  "name": "react-native-rsa",
+  "name": "isomorphic-rsa",
   "version": "0.0.3",
-  "description": "RSA crypto lib for react native",
+  "description": "RSA crypto lib for react, react native, nodejs",
   "main": "index.js",
   "scripts": {
     "test": "jest"
